@@ -66,7 +66,10 @@ spin-gate-6c6cdfc649-7lgvw                  1/1     Running     0          5h37m
 spin-igor-85d986c45d-dphn5                  1/1     Running     0          5h37m
 spin-orca-7f666f4676-sgbzf                  1/1     Running     0          5h37m
 spin-rosco-69fcc9cd7c-ppjnx                 1/1     Running     0          5h37m
+```
+
 - In case if you are not using any Ingress, now is time to create routes for the below services
+
 ```
 oes-ui
 oes-gate
@@ -75,6 +78,7 @@ spin-gate-lb
 ```
 
 - Once, you have the routes ready. Update the URL's in the values.yaml in the ingress section and do a 'helm upgrade'. This will update all the overrideurl's in spinnaker and other OES configuration.
+
 ```
 Spinnaker Deck URL configuration; url overwhich spinnaker deck will be accessed
 Spinnaker Gate URL configuration; url overwhich spinnaker gate will be accessed
