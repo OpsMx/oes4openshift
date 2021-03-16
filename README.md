@@ -87,4 +87,8 @@ Spinnaker Gate URL configuration; url overwhich spinnaker gate will be accessed
 OES-UI url configuration
 OES-Gate url configuration
 ```
+- Command to execute a "helm upgrade"
+```
+helm upgrade oes . --namespace oes --timeout 20m
+```
 
