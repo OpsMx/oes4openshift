@@ -10,7 +10,9 @@ tar -xvf OES-<Version>.tar.gz
 
 ### Installation Process
 - Navigate to the Directory
-> cd OES-<Version>/charts/oes
+```
+cd OES-<Version>/charts/oes
+```
 - Edit the values.yaml update the "imageCredentials"
     ```
     registry: https://quay.io/
