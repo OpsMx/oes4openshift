@@ -23,7 +23,9 @@ cd OES-<Version>/charts/oes
     - CertManager
     - Ingress
     - OpenLDAP
-- Incase, if you are using an Ingress which is already existing. Ensure to update the URL's in the below fields, so that all the spinanker and OES configurations will be done during the installation
+- Incase, if you are using an extern OpenShift Route/Ingress which is already existing. Ensure to update the URL's in the below fields, so that all the spinanker and OES configurations will be done during the installation
+- Update the GitOps Halyard Section with BitBucket/S3 where ever Halyard is placed.
+- Update the Pipeline Promotion with BitBucket/S3 credentials according to your requirement.
 ```
 Spinnaker Deck URL configuration; url overwhich spinnaker deck will be accessed
 Spinnaker Gate URL configuration; url overwhich spinnaker gate will be accessed
